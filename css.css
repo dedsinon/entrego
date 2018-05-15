@@ -1,0 +1,41 @@
+/* =================================
+					     NAVBAR
+================================= */
+
+.navbar {
+ 	background-color: #222F5F;
+ 	border-radius: 0px 0px 0px 0px;
+ 	margin-bottom: 0px;
+ 	position: fixed;
+ 	overflow: hidden;
+ 	width: 100%;
+ 	z-index: 3;
+}
+
+.navbar-header, .container-fluid{
+	padding-top: 0px;
+	margin-top: 0px;
+}
+#navbar-header {
+	margin-top: 0px;
+	padding-bottom: 10px;
+	margin-left: 90px;
+}
+
+.navbar-nav > li > a {
+ 	color: white;
+	background-color:  #222F5F;
+	margin-right: 30px;
+	margin-top: 10px;
+	margin-left: 10px;
+	padding-right: 40px;
+}
+
+.navbar-nav > li > a:hover {
+ 	color: white;
+	background-color:  #222F5F;
+	margin-right: 30px;
+	margin-left: 10px
+	margin-top: 10px;
+	font-weight: bold;
+}

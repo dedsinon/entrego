@@ -1,0 +1,202 @@
+
+/* =================================
+						NAVBAR
+================================= */
+/* .scroll{
+		background-color: #ffffff;
+		z-index: 3;
+		width: 100%;
+		border-radius: 0px 0px 0px 0px;
+	 	margin: 0 0 0 0;
+		padding: 0 0 0 0;
+	 	position: fixed;
+} */
+.navbar {
+ 	background-color: #222F5F;
+ 	border-radius: 0px 0px 0px 0px;
+ 	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+ 	position: fixed;
+ 	width: 100%;
+ 	z-index: 3;
+}
+
+
+.navbar-header, .container-fluid{
+	padding-top: 0px;
+	margin-top: 0px;
+}
+#navbar-header {
+	margin-top: 0px !important;
+	padding-top: 0px !important;
+	position: relative;
+	display: inline-block;
+	position: relative;
+	left: 20px;
+}
+
+.navbar-nav > li > a {
+ 	color: white;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	font-family: Brandon-Reg, sans-serif;
+	background-color:  #222F5F;
+	margin-right: 30px;
+	margin-top: 10px;
+	margin-left: 10px;
+	padding-right: 20px;
+}
+
+	.navbar-nav > li > a:hover {
+	 	color: white;
+		background: transparent;
+		margin-right: 30px;
+		margin-left: 10px
+		margin-top: 10px;
+		font-weight: bold;
+	}
+
+.navbar-toggle > .icon-bar{
+	background-color: white;
+}
+/*=================================
+					Background 1
+=================================*/
+
+ #bg1 {
+ 	position: absolute;
+	background-image: url(assets/home/bg-homebanner.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	margin-top: 0px;
+	height: 1150px;
+	max-width: 100%;
+	width: 100%;
+	z-index: 2;
+	box-sizing: border-box;
+	}
+
+	#bg1 > .container{
+		text-align: center;
+	}
+
+	#bg1 > .container > .row #img{
+		width: 450px;
+		margin-top: 200px;
+		position: relative;
+	}
+
+	#bg1 > .container > .row .text{
+		margin-top: 50px;
+		color: white;
+		font-family: Brandon-Reg, sans-serif;
+		line-height: 36px;
+		font-size: 24px;
+		font-weight: 400;
+	}
+
+	#bg1 > .container > .row form .form-group{
+		margin-top: 40px;
+		width: 500px;
+		color: white;
+		font-family: Brandon-Reg, sans-serif;
+		line-height: 36px;
+		font-size: 24px;
+		font-weight: 400;
+	}
+	#bg1 > .container > .row form .form-group button{
+	background-color: #2DCCCA;
+	color: white;
+	}
+	#bg1 > .container > .row form .form-group button span::after{
+	content: "TRACK MY ORDER";
+	margin-bottom: 20px;
+	margin-top: 0;
+	line-height: inherit;
+	font-size: 14px;
+	color: white;
+	}
+
+	#bg1 > .container > .we{
+		margin-top: 70px;
+		align-content: center;
+	}
+	#bg1 > .container > .row .text1{
+		margin-top: 50px;
+		color: white;
+		font-family: Brandon-Reg, sans-serif;
+		line-height: 36px;
+		font-size: 24px;
+		font-weight: 400;
+		display: inline;
+	}
+
+	/*=================================
+							Background 2
+	===================================*/
+
+	 #bg2 {
+	 	position: absolute;
+		background-image: url(assets/home/bg-map.png);
+		background-repeat: no-repeat;
+		background-size: 100%;
+		background-color: #F8FAFB;
+		margin-top: 50%;
+		height: 1200px;
+		width: 100%;
+		display: block;
+		z-index: 1;
+	}
+	#bg2 > .container > .row{
+		margin-top: 25%;
+		height: 600px;
+	}
+
+
+		/*=================================
+								Background 3
+		===================================*/
+		#bg3 {
+		 margin-top: 120%;
+		 position: absolute;
+		 background-image: url(assets/home/bg-corporate-solutions.png);
+		 background-repeat: no-repeat;
+		 background-size: 100%;
+		 /*background-color: #F8FAFB;*/
+		 height: 140%;
+		 width: 100%;
+		 display: block;
+		 z-index: 2;
+		 /*border: 5px solid green;*/
+		 /*overflow: hidden;*/
+	 }
+	 /*=================================
+							 Background 4
+	 ===================================*/
+	 #bg4 {
+	 	margin-top: 185%;
+	 	position: absolute;
+		background-repeat: no-repeat;
+		background-size: 100%;
+		background-color: #F8FAFC;
+		height: 400px;
+		width: 100%;
+		display: block;
+		/*overflow: hidden;*/
+	}
+
+	#footer{
+		/*border: 5px solid red;*/
+		color: black;
+		z-index: 1;
+		/*margin-top: 100px;*/
+
+	}
+	#img-footer{
+		/*border: 5px solid red;*/
+		color: black;
+		z-index: 1;
+		margin-top: 100px;
+
+	}

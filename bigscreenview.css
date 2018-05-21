@@ -1,0 +1,57 @@
+@media only screen
+and (min-width: 2400px) {
+
+  .navbar {
+   	background-color: pink;
+  }
+
+	#bg1 {
+	 position: absolute;
+	 background-image: url(assets/home/bg-homebanner.png);
+	 background-repeat: no-repeat;
+	 background-size: 100%;
+	 margin-top: 0px;
+	 height: 1000px;
+	 max-width: 100%;
+	 width: 100%;
+	 z-index: 2;
+	 box-sizing: border-box;
+	 }
+	#bg2 {
+	 position: absolute;
+	 background-image: url(assets/home/bg-map.png);
+	 background-repeat: no-repeat;
+	 background-size: 100%;
+	 background-color: #F8FAFB;
+	 margin-top: 15%;
+	 height: 80%;
+	 width: 100%;
+	 display: block;
+	 z-index: 1;
+ }
+ #bg3 {
+	 margin-top: 32%;
+	 position: absolute;
+	 background-image: url(assets/home/bg-corporate-solutions.png);
+	 background-repeat: no-repeat;
+	 background-size: 100%;
+	 /*background-color: #F8FAFB;*/
+	 height:50%;
+	 width: 100%;
+	 display: block;
+	 z-index: 2;
+	 /*border: 5px solid green;*/
+	 /*overflow: hidden;*/
+ }
+ #bg4 {
+	margin-top: 55%;
+	position: absolute;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-color: #F8FAFC;
+	height: 400px;
+	width: 100%;
+	display: block;
+	/*overflow: hidden;*/
+}
+}

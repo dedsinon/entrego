@@ -1,0 +1,175 @@
+@media only screen
+  and (min-width: 768px)
+  and (max-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+    body{
+      overflow-x: hidden;
+    }
+
+    .navbar {
+     	background-color: yellow;
+     	border-radius: 0px 0px 0px 0px;
+     	margin: 0 0 0 0;
+    	padding: 0 0 0 0;
+     	position: fixed;
+     	height: auto;
+     	z-index: 3;
+    }
+
+    .navbar-nav > li > a {
+     	color: white;
+    	font-size: 15px;
+    	font-weight: 400;
+    	line-height: 24px;
+    	font-family: Brandon-Reg, sans-serif;
+    	background-color:  #222F5F;
+    	margin-right: 10px;
+    	margin-top: 10px;
+    	margin-left: 10px;
+    	padding-right: 10px;
+    }
+
+    /*=================================
+    					Background 1
+    =================================*/
+
+     #bg1 {
+     	position: absolute;
+    	background-image: url(assets/home/bg-homebanner.png);
+    	background-repeat: no-repeat;
+    	background-size: 100%;
+    	margin-top: 0px;
+    	height: 1150px;
+    	width: 100%;
+    	z-index: 2;
+    	box-sizing: border-box;
+    	}
+
+    	#bg1 > .container{
+    		text-align: center;
+    	}
+
+    	#bg1 > .container > .row #img{
+    		width: 250px;
+    		margin-top: 110px;
+    		position: relative;
+    	}
+
+    	#bg1 > .container > .row .text{
+    		margin-top: 20px;
+    		color: white;
+    		font-family: Brandon-Reg, sans-serif;
+    		line-height: 36px;
+    		font-size: 20px;
+    		font-weight: 400;
+    	}
+
+    	#bg1 > .container > .row form .form-group{
+    		margin-top: 20px;
+    		width: 350px;
+        height: 50px !important;
+    		color: white;
+    		font-family: Brandon-Reg, sans-serif;
+    		line-height: 36px;
+    		font-size: 20px;
+    		font-weight: 400;
+    	}
+
+      .input-group .form-control:first-child, .input-group-addon:first-child, .input-group-btn:first-child>.btn, .input-group-btn:first-child>.btn-group>.btn, .input-group-btn:first-child>.dropdown-toggle, .input-group-btn:last-child>.btn-group:not(:last-child)>.btn, .input-group-btn:last-child>.btn:not(:last-child):not(.dropdown-toggle) {
+        height: auto;
+      }
+
+    	#bg1 > .container > .row form .form-group button{
+    	background-color: #2DCCCA;
+    	color: white;
+      height: auto;
+    	}
+
+    	#bg1 > .container > .row form .form-group button span::after{
+    	content: ">";
+    	/* margin-bottom: 20px; */
+    	margin-top: 0;
+    	line-height: inherit;
+    	font-size: 14px;
+    	color: white;
+    	}
+
+    	#bg1 > .container > .we-row{
+    		align-content: center;
+    	}
+
+    	#bg1 > .container > .row .we-text{
+    		margin-top: 5px;
+    		color: white;
+    		font-family: Brandon-Reg, sans-serif;
+    		line-height: 36px;
+    		font-size: 18px;
+    		font-weight: 400;
+    		display: inline;
+    	}
+
+      .cube {
+        margin-top: 80px;
+      }
+
+      /*=================================
+                  Background 2
+      ===================================*/
+       #bg2 {
+        position: absolute;
+        background-image: url(assets/home/bg-map.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-color: #F8FAFB;
+        margin-top: 50%;
+        height: 1300px;
+        width: 100%;
+        display: block;
+        z-index: 1;
+      }
+
+      #bg2 > .container > .row {
+        margin-top: 25%;
+        height: 600px;
+      }
+
+      .container > .row >  .col-md-12 > .row > .col-md-6 > .row > .col-md-12 > img {
+        height: 80px;
+      }
+
+       #express {
+         font-size: 30px;
+         color: #22a2a2;
+         font-weight: bold;
+         font-family: OS-Reg;
+       }
+
+       #deliver {
+         color: #222f5f;
+         font-size: 30px;
+         font-weight: bold;
+         line-height: 30px;
+         font-family: OS-Reg;
+       }
+
+       #from-you{
+         font-family: OS-Bold;
+         font-size: 18px;
+         color: #22a2a2;
+        }
+
+        #text-group{
+          font-family: OS-Reg;
+          font-size: 16px;
+          color: #4a4a4a;
+        }
+
+      /* .container > .row >  .col-md-12 > .row > .col-md-6 > .row > .col-md-12 > p > {
+        border: 5px solid green;
+        font-size: 30px;
+      } */
+
+
+
+}

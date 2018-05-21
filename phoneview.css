@@ -1,0 +1,90 @@
+@media only screen
+  and (min-width: 576px)
+  and (max-width: 767.98px)
+  and (-webkit-min-pixel-ratio: 3) {
+
+    .navbar {
+      background-color: orange !important;
+    }
+
+    .navbar-header .navbar-brand {
+			margin-top: 10px !important;
+			padding-top: 0px !important;
+			position: relative;
+			display: inline-block;
+			position: relative;
+		}
+
+		.container > #bg1 {
+			height: 2000px;
+		}
+
+		#bg1 > .container > .row #img {
+			margin-top: 70px;
+			width: 200px;
+			height: auto;
+			position: relative;
+		}
+
+		#bg1 > .container > .row .text {
+			margin-top: 20px;
+			color: white;
+			font-family: Brandon-Reg, sans-serif;
+			line-height: 12px;
+			font-size: 14px;
+			font-weight: 400;
+		}
+
+		#bg1 > .container > .row form .form-group {
+			margin-top: 20px;
+			width: 300px;
+			color: white;
+			font-family: Brandon-Reg, sans-serif;
+			line-height: 12px;
+			font-size: 12px;
+			font-weight: 400;
+			box-sizing: border-box;
+		}
+
+		#bg1 > .container > .row form .form-group input {
+		color: white;
+		font-size: 14px;
+		}
+
+		#bg1 > .container > .row form .form-group button {
+		background-color: #2DCCCA;
+		color: white;
+		}
+
+		#bg1 > .container > .row form .form-group button span::after {
+		content: ">";
+		margin-bottom: 20px;
+		margin-top: 0;
+		line-height: inherit;
+		font-size: 14px;
+		color: white;
+		}
+
+		#bg1 > .container > .row .text1 {
+			margin-top: 5px;
+			color: white;
+			font-family: Brandon-Reg, sans-serif;
+			line-height: 16px;
+			font-size: 13px;
+			font-weight: 300;
+		}
+
+		#bg1 > .container > .we {
+			margin-top: 0px;
+			align-content: center;
+		}
+
+		#bg1 > .container > .row #img1 {
+			margin-top: -30px;
+			height: 50px;
+		}
+
+		#hide{
+			visibility: hidden;
+		}
+}
